@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC
+    "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+    "http://struts.apache.org/dtds/struts-2.0.dtd">
+<struts>
+	<constant name="struts.devMode" value="true" />
+	<package name="basicstruts2" extends="struts-default">
+		<!-- If no class attribute is specified the framework will assume success 
+			and render the result index.jsp -->
+		<!-- If no name value for the result node is specified the success value 
+			is the default -->
+		
+		
+<!-- 	
+-noverify
+-javaagent:D:\Dropbox\jrebel\jrebel.jar
+-Drebel.dirs=D:\Dropbox\EclipseJuno\fanski_BirtReport\build\classes
+-Drebel.struts2-plugin=true
+-->
+		
+		<!-- 登陆action -->
+		<action name="login" class="com.edwin.login.action.PersonAction" >
+		<result name="success">/welcome.jsp</result>
+		</action>
+		
+	</package>
+</struts>
