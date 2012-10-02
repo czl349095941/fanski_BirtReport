@@ -8,10 +8,8 @@
 <title>菲时特ERP报表平台2 </title>
 </head>
 <body>
-<p>Your registration information: <s:property value="Person" /> </p>
+<s:property value="Person.userName"/>
 
-
-<a href="<s:url action="index" />">返回</a>
-
+dddddeeefff
 </body>
 </html>

@@ -10,12 +10,13 @@
 </head>
 <body>
 
-<s:form action="login">
+<s:form action="login" >
 
-<s:textfield name="Person.userName" label="用户名："></s:textfield>
-<s:textfield name="Person.passWord" label="密码："></s:textfield>
-<s:submit label="提交"></s:submit><s:reset label="重置"></s:reset>
+<s:textfield  name="Person.userName" label="用户名"></s:textfield>
+<s:textfield name="Person.passWord" label="密码"></s:textfield>
+<s:submit label="提交"></s:submit>
 </s:form>
 
+   
 </body>
 </html>

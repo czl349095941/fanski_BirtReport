@@ -65,10 +65,16 @@ public class QueryErp {
 
 		ArrayList<String> al = new ArrayList<String>();
 		
+//		al.add("com.microsoft.sqlserver.jdbc.SQLServerDriver");
+//		al.add("jdbc:sqlserver://127.0.0.1:1433;databasename=fanski");
+//		al.add("sa");
+//		al.add("86916503");
+		
 		al.add("com.microsoft.sqlserver.jdbc.SQLServerDriver");
-		al.add("jdbc:sqlserver://127.0.0.1:1433;databasename=fanski");
+		al.add("jdbc:sqlserver://192.168.50.50:1433;databasename=fanski");
 		al.add("sa");
 		al.add("86916503");
+		
 		
 //		al.add("com.microsoft.sqlserver.jdbc.SQLServerDriver");
 //		al.add("jdbc:sqlserver://192.168.1.4:1433;databasename=fanski");
