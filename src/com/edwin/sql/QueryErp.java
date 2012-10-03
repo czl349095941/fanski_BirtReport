@@ -70,8 +70,13 @@ public class QueryErp {
 //		al.add("sa");
 //		al.add("86916503");
 		
+//		al.add("com.microsoft.sqlserver.jdbc.SQLServerDriver");
+//		al.add("jdbc:sqlserver://192.168.50.50:1433;databasename=fanski");
+//		al.add("sa");
+//		al.add("86916503");
+		
 		al.add("com.microsoft.sqlserver.jdbc.SQLServerDriver");
-		al.add("jdbc:sqlserver://192.168.50.50:1433;databasename=fanski");
+		al.add("jdbc:sqlserver://192.168.50.117:1433;databasename=fanski");
 		al.add("sa");
 		al.add("86916503");
 		
